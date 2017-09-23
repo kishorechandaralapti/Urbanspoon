@@ -1,21 +1,14 @@
 <html>
 <head>
 <style type="text/css">
-footer.footer-distributed {
-	
-}
-
 .footer-distributed {
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
-	text-align: left;
 	font: bold 16px sans-serif;
-	position: absolute;
-	bottom: 0px;
 	padding: 10px 50px;
-	margin-top: 80px;
+	opacity: 0.8;
 }
 
 .footer-distributed .footer-left, .footer-distributed .footer-center,
@@ -164,51 +157,54 @@ footer.footer-distributed {
 </head>
 
 <body>
-<footer class="footer-distributed">
+	<footer class="footer-distributed">
 
 
-	<div class="footer-center">
+		<div class="footer-center">
 
-		<div>
-			<i class="fa fa-map-marker"></i>
-			<p>
-				<span>21 Revolution Street</span> Paris, France
+			<div><a href="https://www.google.co.in/maps/place/TalentSprint/@17.4470762,78.3538608,15z/data=!4m5!3m4!1s0x0:0x202f02db1f2e21c5!8m2!3d17.4470762!4d78.3538608"><i class="fa fa-map-marker"></i></a>
+				<p>
+					<span>PSR Prime Tower, </span>Beside Gate No:1, DLF Cyber City,
+					Gachibowli
+				</p>
+			</div>
+
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>1800 108 35356</p>
+			</div>
+
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p>
+					<a href="mailto:support@company.com">support@company.com</a>
+				</p>
+			</div>
+
+		</div>
+
+		<div class="footer-right">
+
+			<p class="footer-company-about">
+				<span>Talent Sprint </span> TalentSprint prepares engineering
+				graduates for IT industry job roles like Software Developer and
+				Software Testing Professional.
 			</p>
-		</div>
 
-		<div>
-			<i class="fa fa-phone"></i>
-			<p>+1 555 123456</p>
-		</div>
+			<div class="footer-icons">
 
-		<div>
-			<i class="fa fa-envelope"></i>
-			<p>
-				<a href="mailto:support@company.com">support@company.com</a>
-			</p>
-		</div>
+				<a href="https://www.facebook.com/talentsprint/"><i
+					class="fa fa-facebook"></i></a> <a
+					href="https://twitter.com/talentsprint?lang=en"><i
+					class="fa fa-twitter"></i></a> <a
+					href="https://in.linkedin.com/company/talentsprint"><i
+					class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-github"></i></a>
 
-	</div>
-
-	<div class="footer-right">
-
-		<p class="footer-company-about">
-			<span>About the company</span> Lorem ipsum dolor sit amet,
-			consectateur adispicing elit. Fusce euismod convallis velit, eu
-			auctor lacus vehicula sit amet.
-		</p>
-
-		<div class="footer-icons">
-
-			<a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i
-				class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a>
-			<a href="#"><i class="fa fa-github"></i></a>
+			</div>
 
 		</div>
 
-	</div>
-
-</footer>
+	</footer>
 </body>
 
 </html>
