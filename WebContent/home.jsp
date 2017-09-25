@@ -5,22 +5,18 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <style type="text/css">
-.well {
-	margin: 20px 0px 0px 20px;
-}
-
 .row {
 	text-align: center;
 	margin: auto;
 	border: 2px solid;
 	border-color: red;
-	width: -webkit-fill-available;
+
 }
 
 .scrollbar {
 	margin-left: 30px;
 	float: left;
-	height: 420px;
+	height: 450px;
 	overflow-y: scroll;
 	margin-bottom: 25px;
 }
@@ -82,6 +78,7 @@
 	margin-top: 10px;
 }
 
+.
 label {
 	font-size: 1.3em;
 	line-height: 1em;
@@ -105,27 +102,27 @@ textarea.form-control {
 	background-color: transparent;
 	color: #fff;
 }
+
+.img-rounded img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.col-sm-3.col-md-6.col-lg-2 {
+	height: 220px;
+	border: 2px #736161 solid;
+	margin: 15px 0px 0px 25px;
+	color: white;
+}
+
+.card {
+	height: 220px;
+	border: 2px black solid;
+	margin: 15px 0px 0px 25px;
+	color: white;
+}
 </style>
-<script type="text/javascript">
-	var count = 0;
-	function accodian(a) {
 
-		document.getElementById("branch" + a).style.width = "100%";
-		if (count != 0 && count != a || count == count) {
-			document.getElementById("branch" + a).style.width = "auto";
-			alert("changing" + count);
-			console.log(count);
-		}
-
-		if (count != 0 && count != a && count == count) {
-			document.getElementById("branch" + a).style.width = "auto";
-			alert("changing" + count);
-			console.log(count);
-		}
-		count = a;
-
-	}
-</script>
 
 </head>
 <body>
@@ -133,162 +130,152 @@ textarea.form-control {
 	<div class="container-fluid">
 
 		<div class="row scrollbar" id="style-15">
-			<div class="panel-group" id="accordion">
-				<div id="branch1">
-					<div class=" col-sm-3 col-md-6 col-lg-2 well" id="branch1">
-						<h4>Branch1</h4>
-						<img src="images/branch/branch1.jpg" class="img-rounded"
-							alt="Cinque Terre" width="220" height="140">
-						<p>branch1</p>
 
-						<div class="panel panel-primary">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a class="accordion-toggle" data-toggle="collapse"
-										data-parent="#accordion" href="#collapseOne"> Collapsible
-										Group Item #1 </a>
-								</h4>
-							</div>
-						</div>
-					</div>
-					<div id="movedown">
-						<div id="collapseOne" class="panel-collapse collapse">
-							<div class="panel-body">Anim pariatur cliche reprehenderit,
-								enim eiusmod high life accusamus terry richardson ad squid. 3
-								wolf moon officia aute, non cupidatat skateboard dolor brunch.
-								Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-								tempor, sunt aliqua put a bird on it squid single-origin coffee
-								nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
-								craft beer labore wes anderson cred nesciunt sapiente ea
-								proident. Ad vegan excepteur butcher vice lomo. Leggings
-								occaecat craft beer farm-to-table, raw denim aesthetic synth
-								nesciunt you probably haven't heard of them accusamus labore
-								sustainable VHS.</div>
-						</div>
-					</div>
-				</div>
-				<div id="branch2">
-					<div class=" col-sm-3 col-md-6 col-lg-2 well">
-						<h4>Branch1</h4>
-						<img src="images/branch/branch2.jpg" class="img-rounded"
-							alt="Cinque Terre" width="220" height="140">
-						<p>branch1</p>
-						<div class="panelpanel-primary">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a class="accordion-toggle" data-toggle="collapse"
-										data-parent="#accordion" href="#collapseTwo"> Collapsible
-										Group Item #2 </a>
-								</h4>
-							</div>
-						</div>
-					</div>
-
-
-
-
-					<div id="collapseTwo" class="panel-collapse collapse">
-						<div class="panel-body">
-							<div class=" col-sm-3 col-md-6 col-lg-2 well">
-								<h4>Branch1</h4>
-								<img src="images/branch/branch4.jpg" class="img-rounded"
-									alt="Cinque Terre" width="220" height="140">
-								<p>branch1</p>
-							</div>
-							<div class=" col-sm-3 col-md-6 col-lg-2 well">
-								<h4>Branch1</h4>
-								<img src="images/branch/branch5.jpg" class="img-rounded"
-									alt="Cinque Terre" width="220" height="140">
-								<p>branch1</p>
-							</div>
-							<div class=" col-sm-3 col-md-6 col-lg-2 well">
-								<h4>Branch1</h4>
-								<img src="images/branch/branch4.jpg" class="img-rounded"
-									alt="Cinque Terre" width="220" height="140">
-								<p>branch1</p>
-							</div>
-
-							<div class=" col-sm-3 col-md-6 col-lg-2 well"></div>
-						</div>
-					</div>
-
-				</div>
-				<div class=" col-sm-3 col-md-6 col-lg-2 well">
-					<h4>Branch1</h4>
-					<img src="images/branch/branch3.jpg" class="img-rounded"
-						alt="Cinque Terre" width="220" height="140">
-					<p>branch1</p>
-					<div class="panel panel-primary">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a class="accordion-toggle" data-toggle="collapse"
-									data-parent="#accordion" href="#collapseThree"> Collapsible
-									Group Item #1 </a>
-							</h4>
-						</div>
-					</div>
-
-
-					<div id="collapseThree" class="panel-collapse collapse">
-						<div class="panel-body">
-							<div class=" col-sm-3 col-md-6 col-lg-2 well">
-								<h4>Branch1</h4>
-								<img src="images/branch/branch4.jpg" class="img-rounded"
-									alt="Cinque Terre" width="220" height="140">
-								<p>branch1</p>
-							</div>
-							<div class=" col-sm-3 col-md-6 col-lg-2 well">
-								<h4>Branch1</h4>
-								<img src="images/branch/branch5.jpg" class="img-rounded"
-									alt="Cinque Terre" width="220" height="140">
-								<p>branch1</p>
-							</div>
-							<div class=" col-sm-3 col-md-6 col-lg-2 well">
-								<h4>Branch1</h4>
-								<img src="images/branch/branch4.jpg" class="img-rounded"
-									alt="Cinque Terre" width="220" height="140">
-								<p>branch1</p>
-							</div>
-
-							<div class=" col-sm-3 col-md-6 col-lg-2 well"></div>
-						</div>
-					</div>
-				</div>
-				<div class=" col-sm-3 col-md-6 col-lg-2 well">
-					<h4>Branch1</h4>
-					<img src="images/branch/branch4.jpg" class="img-rounded"
-						alt="Cinque Terre" width="220" height="140">
-					<p>branch1</p>
-				</div>
-				<div class=" col-sm-3 col-md-6 col-lg-2 well">
-					<h4>Branch1</h4>
-					<img src="images/branch/branch5.jpg" class="img-rounded"
-						alt="Cinque Terre" width="220" height="140">
-					<p>branch1</p>
-				</div>
-				<div class=" col-sm-3 col-md-6 col-lg-2 well">
-					<h4>Branch1</h4>
-					<img src="images/branch/branch4.jpg" class="img-rounded"
-						alt="Cinque Terre" width="220" height="140">
-					<p>branch1</p>
-				</div>
-
-				<div class=" col-sm-3 col-md-6 col-lg-2 well"></div>
+			<div class=" col-sm-3 col-md-6 col-lg-2" data-toggle="collapse"
+				data-target="#collapseExample" aria-expanded="false"
+				aria-controls="collapseExample">
+				<h4>Branch1</h4>
+				<img src="images/branch/branch2.jpg"
+					class="img-responsive img-rounded" width="220" height="140">
+				<p>branch1</p>
 
 			</div>
 
 
+
+			<div class="collapse" id="collapseExample">
+
+				<div class="card card-block col-lg-10">Anim pariatur cliche
+					reprehenderit, enim eiusmod high life accusamus terry richardson ad
+					squid. Nihil anim keffiyeh helvetica, craft beer labore wes
+					anderson cred nesciunt sapiente ea proident.</div>
+
+			</div>
+
+
+			<div class=" col-sm-3 col-md-6 col-lg-2" data-toggle="collapse"
+				data-target="#collapseExample1" aria-expanded="false"
+				aria-controls="collapseExample">
+				<h4>Branch1</h4>
+				<img src="images/branch/branch2.jpg"
+					class="img-responsive img-rounded" width="220" height="140">
+				<p>branch1</p>
+
+			</div>
+
+
+
+			<div class="collapse" id="collapseExample1">
+
+				<div class="card card-block col-lg-10">Anim pariatur cliche
+					reprehenderit, enim eiusmod high life accusamus terry richardson ad
+					squid. Nihil anim keffiyeh helvetica, craft beer labore wes
+					anderson cred nesciunt sapiente ea proident.</div>
+
+			</div>
+
+			<div class=" col-sm-3 col-md-6 col-lg-2" data-toggle="collapse"
+				data-target="#collapseExample2" aria-expanded="false"
+				aria-controls="collapseExample">
+				<h4>Branch1</h4>
+				<img src="images/branch/branch3.jpg"
+					class="img-responsive img-rounded" width="220" height="140">
+				<p>branch1</p>
+
+			</div>
+
+
+
+			<div class="collapse" id="collapseExample2">
+
+				<div class="card card-block col-lg-10">Anim pariatur cliche
+					reprehenderit, enim eiusmod high life accusamus terry richardson ad
+					squid. Nihil anim keffiyeh helvetica, craft beer labore wes
+					anderson cred nesciunt sapiente ea proident.</div>
+
+			</div>
+
+			<div class=" col-sm-3 col-md-6 col-lg-2" data-toggle="collapse"
+				data-target="#collapseExample3" aria-expanded="false"
+				aria-controls="collapseExample">
+				<h4>Branch1</h4>
+				<img src="images/branch/branch4.jpg"
+					class="img-responsive img-rounded" width="220" height="140">
+				<p>branch1</p>
+
+			</div>
+
+
+
+			<div class="collapse" id="collapseExample3">
+
+				<div class="card card-block col-lg-10">Anim pariatur cliche
+					reprehenderit, enim eiusmod high life accusamus terry richardson ad
+					squid. Nihil anim keffiyeh helvetica, craft beer labore wes
+					anderson cred nesciunt sapiente ea proident.</div>
+
+			</div>
+
+			<div class=" col-sm-3 col-md-6 col-lg-2" data-toggle="collapse"
+				data-target="#collapseExample4" aria-expanded="false"
+				aria-controls="collapseExample">
+				<h4>Branch1</h4>
+				<img src="images/branch/branch4.jpg"
+					class="img-responsive img-rounded" width="220" height="140">
+				<p>branch1</p>
+
+			</div>
+
+
+
+			<div class="collapse" id="collapseExample4">
+
+				<div class="card card-block col-lg-10">Anim pariatur cliche
+					reprehenderit, enim eiusmod high life accusamus terry richardson ad
+					squid. Nihil anim keffiyeh helvetica, craft beer labore wes
+					anderson cred nesciunt sapiente ea proident.</div>
+
+			</div>
+
+			<div class=" col-sm-3 col-md-6 col-lg-2" data-toggle="collapse"
+				data-target="#collapseExample5" aria-expanded="false"
+				aria-controls="collapseExample">
+				<h4>Branch1</h4>
+				<img src="images/branch/branch5.jpg"
+					class="img-responsive img-rounded" width="220" height="140">
+				<p>branch1</p>
+
+			</div>
+
+
+			<div class="collapse" id="collapseExample5">
+
+				<div class="card card-block col-lg-10">Anim pariatur cliche
+					reprehenderit, enim eiusmod high life accusamus terry richardson ad
+					squid. Nihil anim keffiyeh helvetica, craft beer labore wes
+					anderson cred nesciunt sapiente ea proident.</div>
+
+			</div>
+
+			<div class=" col-sm-3 col-md-6 col-lg-2 ">
+				<h4>Branch1</h4>
+				<img src="images/branch/branch5.jpg"
+					class="img-responsive img-rounded" alt="Cinque Terre" width="220"
+					height="140">
+				<p>branch1</p>
+
+			</div>
+
 		</div>
+
+
 	</div>
-<jsp:include page="register.jsp"></jsp:include>
+	<p></p>
+
+
+
+	<jsp:include page="register.jsp"></jsp:include>
 
 	<jsp:include page="footer.jsp"></jsp:include>
-
-
-
-
-
-
-
 </body>
 </html>
